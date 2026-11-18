@@ -1,10 +1,17 @@
+:root {
+--image-width: 200px;
+--height: auto;
+--border-color: 1px solid #000;
+}
+/* This would be the root variable. */
+
 main {
     max-width: 840px;
 }
-/* This is just a comment */
+
 main img {
     width: 150px;
-    height: auto;
+    height: var(--height);
 }
 
 aside {
@@ -18,8 +25,8 @@ aside {
 }
 /* aside image information */
 aside img {
-    width: 200px;
-    height: auto;
+    width: var(--image-width);
+    height: var(--height);
 }
 
 nav {
@@ -38,9 +45,9 @@ h1 {
 }
 
 main img {
-    width: 200px;
-    height: auto;
-    border: 1px solid black;
+    width: var(--image-width);
+    height: var(--height);
+    border: var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -51,6 +58,6 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--border-color);
     text-align: center;
 }
