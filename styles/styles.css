@@ -1,7 +1,7 @@
 main {
     max-width: 840px;
 }
-
+/* This is just a comment */
 main img {
     width: 150px;
     height: auto;
@@ -16,7 +16,7 @@ aside {
     color: #333;
     text-align: center;
 }
-
+/* aside image information */
 aside img {
     width: 200px;
     height: auto;
