@@ -1,7 +1,5 @@
 :root {
     --primary-color: #1b4965;
-    --secondary-color: #62b6cb;
-    --accent1-color: #f4a261;
     --accent2-color: #ffffff;
     --heading-font: Arial, Helvetica, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -12,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* body */
 
 body {
     font-family: var(--body-font);
@@ -35,7 +34,7 @@ header img {
 }
 
 nav ul {
-    padding-left: 120px;
+    padding-left: 15px;
     margin-bottom: 12px;
 }
 nav a {
