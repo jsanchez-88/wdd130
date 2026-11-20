@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* body */
 
 body {
@@ -18,11 +19,14 @@ body {
     max-width: 100%;
     margin: 0 auto;
 }
-header, main, footer {
+
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
     max-width: 100%;
- 
+
 }
 
 /* Logo */
@@ -37,6 +41,7 @@ nav ul {
     padding-left: 15px;
     margin-bottom: 12px;
 }
+
 nav a {
     text-decoration: none;
 }
@@ -75,7 +80,7 @@ nav a {
     left: 10px;
     right: 10px;
     padding: 10px;
-    background-color: rgba(27,55, 101, 0.8);
+    background-color: rgba(27, 55, 101, 0.8);
     color: white;
 }
 
@@ -88,29 +93,33 @@ nav a {
     object-fit: cover;
 
 }
+
 /* Sections */
 
 section {
     margin: 20px;
 
 }
+
 h2 {
     background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 15px;
-    font-family:  var(--heading-font);
+    font-family: var(--heading-font);
 }
 
 section p {
     padding: 10px;
 }
-nav, p, section, article {
+
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
-
-
 
 /* Footer */
 

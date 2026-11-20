@@ -18,6 +18,13 @@ body {
     background-color: #bbb;
     color: #333;
 }
+div {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: right;
+
+}
 
 .item1 {
     min-height: 100px;
