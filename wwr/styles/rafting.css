@@ -119,7 +119,7 @@ nav a {
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap 1.25rem
+    gap: 1.25rem;
     padding: 20px;
 }
 
@@ -192,7 +192,6 @@ article {
 .socialmedia img {
     width: 35px;
     height: 35px;
-
 }
 
 footer {
@@ -201,8 +200,5 @@ footer {
     align-items: center;
     border-top: 1px solid #ddd;
     padding: 1px;
-}
-
-footer {
     margin-bottom: 5px;
 }
